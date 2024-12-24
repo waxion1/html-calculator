@@ -1,0 +1,125 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.calculator{
+    margin-left:200px;
+    margin-right: 800px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    min-height: 600px;
+    min-width: 400px;
+    background-color: rgb(211, 27, 180);
+    color: white;
+    border-radius: 30px;
+    
+    
+    
+}
+.border-white{
+    border: 1px solid rgb(197, 196, 196);
+    margin: 5px;
+    border-radius: 30px;
+    padding: 8px;
+
+
+}
+.battery{
+    width: 30px;
+    height: 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+.time-screen{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+.calculator-nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(197, 196, 196);
+
+
+}
+.calculator-sreen{
+    height: 200px;
+    width: 350px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin: 10px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    padding-right: 5px;
+    
+}
+.calculator-sreen::placeholder{
+    color: #fff;
+}
+.small-circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(190, 184, 184);
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.small-circle2{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#big-button{
+    height: 70px;
+    width: 175px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.calulator-footer{
+    height: 2px;
+    width: 200px;
+    background-color: rgb(197, 196, 196);
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 10px;
+    
+}
